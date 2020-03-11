@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.5" height="12.5" viewBox="0 0 12.5 12.5">
+    <defs>
+        <style>
+            .cls-1{fill:#ff6869}
+        </style>
+    </defs>
+    <path id="_icon_exit" d="M76.432 75.1l-4.647-4.647 4.647-4.647a.939.939 0 1 0-1.332-1.324l-4.647 4.647-4.647-4.647a.939.939 0 0 0-1.328 1.328l4.647 4.647-4.643 4.643a.939.939 0 0 0 1.328 1.328l4.647-4.647 4.643 4.651a.939.939 0 0 0 1.332-1.332z" class="cls-1" data-name="📒 icon_exit" transform="translate(-64.207 -64.207)"/>
+</svg>

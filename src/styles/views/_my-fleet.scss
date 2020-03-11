@@ -1,0 +1,384 @@
+.MuiGrid-grid-lg-3 {
+	flex-grow: 0;
+	max-width: 20%;
+	flex-basis: 20%;
+}
+.fleet-board-container {
+	flex-grow: 0;
+	max-width: 20%;
+	flex-basis: 20%;
+}
+
+.live {
+	.button-container {
+    margin-left: -20px;
+    position: absolute;
+		.datepicker-container {
+			.MuiInput-underline:before {
+				border: 0 !important;
+			}
+			.MuiInput-underline:after {
+				border: 0 !important;
+			}
+			.MuiInputBase-root {
+				width: 150px;
+        height: 50px;
+        border: 1px solid #e6e6e6;
+        border-radius: 12px;
+			}
+			#date-picker-inline {
+				width: '100px';
+				position: absolute;
+				left: 50px;
+			}
+			button.MuiIconButton-root {
+				position: absolute;
+				left: 0;
+			}
+		}
+  }
+  
+  .flex-container {
+    padding: 15px 0;
+    margin-top: 60px;
+    .calc-container {
+      &:not(:first-child) {
+        margin-left: 50px;
+      }
+      .title {
+        font-size: 24px;
+        font-weight: 600;
+        color: #000000;
+        margin-bottom: 5px;
+      }
+      .description {
+        font-size: 14px;
+        font-weight: 500;
+        color: #a2a2a2;
+      }
+    }
+  }
+
+  .map-container {
+    position: relative;
+    .btn-container {
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  .scrollable-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    width: 100%;
+    overflow-y: auto;
+  }
+
+  .container-title {
+    font-size: 17px;
+    letter-spacing: 0.28px;
+    color: #006ce6;
+  }
+}
+
+.inventory {
+  .filter-container {
+    margin-left: -7px;
+    padding: 20px 0;
+  }
+}
+
+.maintenance {
+  .description {
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    color: #30304e;
+  }
+}
+
+.detail-container {
+  padding: 30px 25px;
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.19;
+    letter-spacing: 0.8px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f5f5fb;
+  }
+  .tab-btn {
+    height: 40px;
+    color: #000000;
+    border: solid 1px #e0e0e0;
+    &.active {
+      background-color: #006ce6;
+      color: #ffffff;
+      border: 0;
+    }
+  }
+  .vehicle-info {
+    .name-container {
+      margin-right: 41px;
+      .name {
+        font-size: 18px;
+        line-height: 19px;
+        letter-spacing: 0.8px;
+        color: #006ce6;
+      }
+      .id {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.8px;
+        color: #989898;
+      }
+      .star {
+        font-size: 18px;
+        color: #f5a623;
+        margin-left: 8px;
+      }
+      .count {
+        font-size: 15px;
+        margin-top: 3px;
+        color: #f5a623;
+        margin-left: 5px;
+      }
+    }
+    .follow {
+      border-radius: 5px;
+      background-color: #f3f8fd;
+      padding: 6px 15px;
+      .content {
+        font-size: 13px;
+        line-height: 1.23;
+        letter-spacing: 0.8px;
+        text-align: left;
+        color: #1270e3;
+      }
+    }
+    .firmware-des {
+      font-size: 13px;
+      line-height: 1.23;
+      letter-spacing: 0.8px;
+      color: #000000;
+    }
+    .firmware {
+      display: flex;
+      color: #01961b;
+      background-color: #e7ffed;
+      font-size: 12px;
+      padding: 5px 12px;
+      border-radius: 12px;
+      margin-left: 30px;
+    }
+    .use-state {
+      position: relative;
+      img {
+        position: absolute;
+        top: 10px;
+      }
+      .select-box {
+        position: absolute;
+        left: 55px;
+      }
+    }
+    .round-sign {
+      width: 50px;
+      height: 50px;
+      background: #006ce6;
+      border-radius: 50px;
+      margin: 0 15px 8px 15px;
+    }
+    .round-name {
+      font-size: 14px;
+      line-height: 1.29;
+      letter-spacing: normal;
+      color: #006ce6;
+    }
+    .data-container {
+      display: flex;
+      margin-top: 75px;
+      padding-top: 20px;
+      border-top: 1px solid #e3e3e3;
+      .item-container {
+        width: 25%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-right: 1px solid #e3e3e3;
+        &:last-child {
+          border-right: 0;
+        }
+        .content {
+          font-size: 12px;
+          line-height: 1.42;
+          letter-spacing: 0.6px;
+          color: #323232;
+          margin-bottom: 5px;
+        }
+        .value {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 19px;
+          letter-spacing: 0.8px;
+          color: #006ce6;
+        }
+        .memo {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 19px;
+          letter-spacing: 0.8px;
+          color: #000000;
+        }
+      }
+    }
+    .history {
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 1.23;
+      letter-spacing: 0.58px;
+      color: #006ce6;
+    }
+    .card-container {
+      .title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.22;
+        letter-spacing: 0.9px;
+        color: #000000;
+        padding-bottom: 10px;
+        border-bottom: 0;
+      }
+      .region {
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.8px;
+        color: #989898;
+      }
+      .battery {
+        border-bottom: 1px solid #f5f5fb;
+        align-items: flex-end;
+        .name {
+          font-size: 12px;
+          line-height: 1.42;
+          letter-spacing: 0.6px;
+          color: #323232;
+          margin-bottom: 5px;
+        }
+        .content {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 1.19;
+          letter-spacing: 0.8px;
+          color: #000000;
+        }
+        .profile {
+          font-size: 13px;
+          font-weight: 600;
+          line-height: 1.23;
+          letter-spacing: 0.58px;
+          color: #006ce6;
+        }
+        &.battery-info {
+          border-radius: 10px;
+          background-color: #f6f6f6;
+          padding: 30px;
+        }
+      }
+    }
+  }
+  .feedback {
+    .item-container {
+      padding: 15px;
+      border: 1px solid #e9e9e9;
+      border-radius: 12px;
+      margin-bottom: 15px;
+      .content-container {
+        flex: 1;
+        align-items: center;
+        .border-container {
+          display: flex;
+          flex-direction: column;
+          border-top: 1px solid #e9e9e9;
+          border-bottom: 1px solid #e9e9e9;
+        }
+        .info-container {
+          div {
+            flex: 1;
+            .text-tile {
+              font-size: 12px;
+              line-height: 1.42;
+              letter-spacing: 0.6px;
+              color: #323232;
+              margin-bottom: 5px;
+            }
+            .text-content {
+              font-size: 16px;
+              font-weight: 600;
+            }
+            .payed {
+              color: #88d43c;
+            }
+            .pending {
+              color: #ffd271;
+            }
+            .count {
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 1.19;
+              letter-spacing: 0.8px;
+              color: #000000;
+              margin-left: 5px;
+            }
+          }
+        }
+        .info-content {
+          margin-top: 20px;
+          font-size: 12px;
+          line-height: 1.42;
+          letter-spacing: 0.6px;
+          color: #323232;
+        }
+        .go-ride {
+          font-size: 13px;
+          line-height: 1.23;
+          letter-spacing: 0.58px;
+          color: #006ce6;
+        }
+      }
+      &.no-content {
+        padding: 5px;
+      }
+    }
+  }
+  .simcard {
+    .font-gray {
+      color: #8c8c8c;
+    }
+  }
+  .logpanel {
+    .font-gray {
+      color: #323232;
+      line-height: 1.42;
+      letter-spacing: 0.6px;
+    }
+    .ok {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: #7ed321;
+    }
+    .danger {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: #f65c78;
+    }
+    .warning {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: #ffd271;
+    }
+  }
+}

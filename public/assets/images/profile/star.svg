@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13" height="11.958" viewBox="0 0 13 11.958">
+    <defs>
+        <style>
+            .cls-1{fill:#ffffff}
+        </style>
+    </defs>
+    <path stroke="#ff6869" stroke-width="1.5" id="icon_star" d="M60.964-2.889a1 1 0 0 0-.816-.689l-3.287-.46L55.4-6.869a1.041 1.041 0 0 0-1.777 0l-1.465 2.831-3.287.46a1 1 0 0 0-.815.689 1 1 0 0 0 .272 1.033L50.679.333l-.553 3.08a1 1 0 0 0 1.434 1.07L54.51 3l2.951 1.483a1 1 0 0 0 1.439-1.07l-.559-3.08 2.35-2.189a1 1 0 0 0 .273-1.033z" class="cls-1" transform="translate(-48.01 7.368)"/>
+</svg>

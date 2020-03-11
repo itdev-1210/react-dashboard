@@ -1,0 +1,34 @@
+.peple-nav-box {
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    color: #787993;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.is-active {
+    background-color: rgba(0, 108, 230, 0.1);
+    color: #006ce6;
+}
+.border-line {
+    width: 100%;
+    height: 1px;
+    border: solid 1px #f5f5f5;
+}
+.border-height {
+    width: 2px;
+    opacity: 0.05;
+    border: solid 1px #000000;
+}
+.border-width {
+    height: 2px;
+    opacity: 0.05;
+    border: solid 1px #000000;
+}
+.button-green {
+    background-color: #3ac068;
+}

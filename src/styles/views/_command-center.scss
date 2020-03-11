@@ -1,0 +1,141 @@
+.command-center {
+    width: 100vw;
+    height: 100vh;
+    .left {
+        flex: 1;
+        .command-center-header {
+            background-color: #21253f;
+            padding: 20px;
+        }
+        .command-center-content {
+            flex: 1;
+        }
+        .command-center-footer {
+            background-color: #21253f;
+        }
+        .command-weather_container {
+            .command-weather_icon {
+                color: #ffa700;
+            }
+            .command-temperature {
+                color: #ffffff;
+            }
+            .command-description {
+                color: #858585;
+            }
+        }
+        .item-number {
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+            color: #ffffff;
+        }
+        .item-comment {
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+            color: #a2a2a2;
+        }
+        .border-bottom-line {
+            border-bottom: 1px solid #ebebeb;
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+    .right {
+        background-color: #010123;
+        .command-check {
+            width: 25px;
+            height: 25px;
+            border-radius: 5px;
+            color: #ffffff;
+        }
+        .dash-line-1 {
+            width: 100%;
+            height: 1px;
+            opacity: 0.23;
+            border: solid 1px #979797;
+        }
+        .event-box {
+            border-radius: 12px;
+            border: solid 1px rgba(215, 215, 215, 0.16);
+            background-color: #21253f;
+        }
+        .check-icon {
+            width: 32px;
+            height: 32px;
+            background-color: #3ac068;
+            border-radius: 50%;
+            color: #ffffff;
+        }
+        .cancel-icon {
+            width: 32px;
+            height: 32px;
+            background-color: #ff6869;
+            border-radius: 50%;
+            color: #ffffff;
+        }
+        .event-comment-title {
+            font-size: 14px;
+            letter-spacing: 0.86px;
+            color: #ffffff;
+        }
+        .event-comment-date {
+            font-size: 14px;
+            letter-spacing: 0.86px;
+            color: #949494;
+        }
+        .show-part {
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+            color: #898989;
+        }
+        .show-part-active {
+            width: 7px;
+            height: 7px;
+            background-color: #3ac068;
+            border-radius: 50%;
+        }
+        .show-part-inactive {
+            width: 7px;
+            height: 7px;
+        }
+        .scooter-circle {
+            width: 28px;
+            height: 28px;
+            background-color: #42474b;
+            border-radius: 50%;
+        }
+        .in-use {
+            border: solid 1px #1495fb;
+        }
+        .available {
+            border: solid 1px #49c485;
+        }
+        .broken {
+            border: solid 1px #fd6b6d;
+        }
+        .ride-group {
+            flex-direction: row !important;
+        }
+        .battery-status {
+            border-radius: 12px;
+            background-color: #e7ffed;
+            font-size: 12px;
+            font-weight: 500;
+            color: #01961b;
+            line-height: 0.83;
+        }
+        .blue-back-radius {
+            width: 50px;
+            height: 50px;
+            background-color: #006ce6;
+            border-radius: 50%;
+        }
+        .gray-font-vehicle {
+            color: #989898;
+        }
+    }
+}

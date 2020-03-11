@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+    <defs>
+        <style>
+            .cls-1{fill:#006ce6}
+        </style>
+    </defs>
+    <path id="icon_message" d="M80.145 53.505h-17.6a2.19 2.19 0 0 0-2.189 2.195v.009l-.011 19.8 4.4-4.4h15.4a2.2 2.2 0 0 0 2.2-2.2v-13.2a2.2 2.2 0 0 0-2.2-2.204zm-7.7 13.2h-2.2V64.5h2.2zm0-4.4h-2.2V57.9h2.2z" class="cls-1" transform="translate(-60.345 -53.505)"/>
+</svg>
